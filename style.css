@@ -1,0 +1,347 @@
+body {
+  background-color: #cccccc;
+  margin:0;
+  font: 10px exo;
+  text-transform: capitalize;
+}
+
+header {
+  background-color: gray;
+
+}
+
+#header_controller {
+  width:810px;
+  height:150px;
+  margin: 0 auto;
+
+}
+
+#logo {
+  margin:25px 0 0 0;
+  width: 150px;
+  margin-right:10px;
+  height: 100px;
+  float:left;
+  background-color: #ffffff;
+}
+
+/*
+*  NAVIGATION CSS START
+*/
+
+#navigation {
+  min-height: 25px;
+  margin:100px 0 0 0;
+  background-color: #ffffff;
+  width:650px;
+  float: left;
+}
+
+
+ul li {
+  padding: 0;
+  list-style: none;
+  float:left;
+  border-right: 1px solid #333333;
+}
+
+
+ul {
+  z-index: 99;
+  margin: 0;
+  padding: 5px 0px;
+}
+
+
+ul a {
+  padding: 0px 10px;
+}
+
+
+li a {
+  padding: 0 10px;
+  decoration
+}
+
+
+li ul {
+  display: none;
+}
+
+
+li ul li {
+  float: none;
+  padding: 5px;
+}
+
+
+li:hover a {
+  color: #ff0000;
+}
+
+
+li:hover ul {
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+}
+
+
+li:hover li a:hover {
+  background-color: #ccffff;
+color: #1cf011;
+}
+
+
+/*
+*  NAVIGATION CSS END
+*/
+
+main {
+  padding: 30px 0 0 0;
+  width:100%;
+  background-color: #dedede;
+}
+
+#top {
+  height:270px;
+  width:810px;
+  margin:0 auto;
+  background: url(sniperpony.png);
+}
+
+
+#box1_txt, #box2_txt, #box3_txt {
+  text-align: center;
+  padding-top:80px;
+  font-size: 44px;
+  color:#ffffff;
+}
+
+#box1_bottom, #box2_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+#box2_bottom {
+      border-top: 1px solid #bbbbbb;
+}
+
+#box1 {
+  box-shadow: -1px 1px 1px #999999;
+}
+
+#box1, #box2 {
+  background-color: aqua;
+  height:250px;
+  width:190px;
+  position: relative;
+  float:left;
+}
+
+
+
+#box2, #box3 {
+  margin:0 0 0 20px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+#box3 {
+  background-color: lime;
+  height:250px;
+  width:390px;
+  position: relative;
+  float:left;
+  box-shadow: 1px 1px 1px #999999;
+  display: none;
+}
+
+hr {
+  width:90%;
+}
+
+#box3_bottom {
+  background-color: #ffffff;
+  width: 100%;
+  height:10px;
+  position: absolute;
+  bottom:0;
+  font-size: 12px;
+  text-align: center;
+  padding:10px 0 14px 0;
+}
+
+
+
+#bottom_section {
+  height:200px;
+}
+
+
+#bottom_box_controller {
+  margin: auto;
+  width: 900px;
+  height: 10px;
+
+}
+
+
+#bottom_1 {
+  background-color: #dedede;
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+
+#cube_1 {
+  background-color: #91f9a1;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+
+#cube_2 {
+  background-color: #aaf9ff;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -35px;
+  right: -55px;
+}
+
+
+#cube_3 {
+  background-color: #00e800;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -200px;
+  right: -120px;
+}
+
+
+#cube_4 {
+  background-color: #0cf7e2;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -230px;
+  left: 190px;
+}
+
+
+#bottom_2 {
+  background-color: #dedede;
+  width: 300px;
+  height: 200px;
+  float: left;
+  position: relative;
+}
+
+
+#cube_2_1 {
+  background-color: #eea604;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  border: 1px solid #000000;
+}
+
+
+#cube_2_2 {
+  background-color: #ffef60;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  border: 1px solid #000000;
+}
+
+
+#cube_2_3 {
+  background-color: #ffaa8b;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  right: 130px;
+  border: 1px solid #000000;
+}
+
+
+#bottom_3 {
+  background-color: #dedede;
+  width: 300px;
+  height: 200px;
+  float: right;
+  position: relative;
+
+}
+
+
+#cube_3_1 {
+  background-color: #ffa100;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  border-radius: 12.5%;
+  border: 1px solid #000000;
+}
+
+#cube_3_2 {
+  background-color: #ffa100;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  top: 105px;
+  right: 150px;
+  border-radius: 25%;
+border: 1px solid #000000;
+}
+
+#cube_3_3 {
+  background-color: #ffa100;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  top: 105px;
+  right: 45px;
+  border-radius: 33%;
+  border: 1px solid #000000;
+}
+
+#cube_3_4 {
+  background-color: #ffa100;
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  top: 0px;
+  right: 45px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+
+
+
+
+
+
+footer {}
