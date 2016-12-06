@@ -189,6 +189,7 @@
 
   .logo a:hover {
     border: 1px solid grey;
+    border-top: none;
     background-color: black;
   }
 
