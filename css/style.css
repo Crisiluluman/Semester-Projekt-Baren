@@ -94,6 +94,7 @@
     border-radius: 2px;
     overflow: auto;
 }
+
   #qr {
     background-image: url(qr_kode.png);
     background-repeat: no-repeat;
@@ -106,8 +107,7 @@
     width: 200px;
     height: 200px;
     overflow: auto;
-
-  }
+}
 
   #events {
     background-image: url(POSTER_done.png);
@@ -121,7 +121,7 @@
     width: 200px;
     height: 200px;
     overflow: auto;
-  }
+}
 
   .black_hole {
     position: fixed;
@@ -133,6 +133,7 @@
     pointer-events: none;
     background-image: linear-gradient(to bottom, transparent, black);
 }
+
   h1 {
     color: grey;
     font-family: sans-serif;
@@ -140,8 +141,7 @@
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-
-  }
+}
 
   h3 {
     color: grey;
@@ -152,7 +152,6 @@
     text-decoration: none;
     margin-left: 15px;
     margin-right: 15px;
-
 }
 
   #navigation {
